@@ -93,7 +93,7 @@ else:
 
             # Layout: Recommended Employees Section
             st.markdown("---")
-            st.header("🏆 Top 3 Recommended Employees")
+            st.header("🏆 Top 3 Employees")
             for i, employee_id in enumerate(recommendations, 1):
                 employee_details = data[data["Employment ID"] == employee_id][
                     ["Employment ID", "First Name", "Last Name", "Email", "Designation", "Pay Grade"]
