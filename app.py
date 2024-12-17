@@ -6,7 +6,7 @@ from sklearn.preprocessing import LabelEncoder
 # Load Dataset and Train Model
 @st.cache_resource
 def load_and_train_model():
-    file_path = 'synthetic_final_mapping (1).csv'
+    file_path = 'synthetic_final_mapping (1) (1).csv'
     data = pd.read_csv(file_path)
 
     # Select relevant columns for the model
